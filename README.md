@@ -1,26 +1,22 @@
 # Flow-Monitoring
 Monitors the flow of packets and extracts different things.
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg)
-
 **Table of Contents**
-
-[TOCM]
 
 [TOC]
 
-#Dependencies
+# Dependencies
 - C++ 11
 - Libpcap (=>1.0.0)
 - Cmake
 
-#How to Build
+# How to Build
 Run `install.sh` script.
 ```bash
 bash install.sh
 ```
 
-#How to Run
+# How to Run
 Run `Flow-Monitoring` file in `Release` folder.
 ```bash
 ./Release/Flow-Monitoring [Interface Name]
@@ -28,11 +24,11 @@ Run `Flow-Monitoring` file in `Release` folder.
 After pressing Crtl+c, the output file will generate.
 
 
-#TODO list
+# TODO list
 - Use config file.
 
 
-###Sample Output
+# Sample Output
                     
 Source IP  |  Dest IP |  Source Port | Dest Port | Protocols | Duration | Sent Bytes | Received Bytes | Header Bytes FWD
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
